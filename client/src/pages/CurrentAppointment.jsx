@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Avatar } from "antd";
+import { Card, Avatar, Button } from "antd";
 import "../css/CurrentAppointment.css";
 import OtherDocCard from "../components/OtherDocCard";
 const { Meta } = Card;
@@ -22,7 +22,7 @@ const CurrentAppointment = () => {
 								marginTop: "20px",
 								marginLeft: "20px",
 							}}
-							src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+							src="https://images.squarespace-cdn.com/content/v1/5213f93be4b08fcef374a832/1565822183890-I3GTCYUIGFGDQM9H0J04/DSCF7758.JPG"
 						></Avatar>
 					}
 					title="Dr Amy Santiago"
@@ -38,7 +38,7 @@ const CurrentAppointment = () => {
 					</>
 				) : (
 					<>
-						<button>Cancel Appointment</button>
+						<Button className="buttonCurrent">Cancel Appointment</Button>
 					</>
 				)}
 			</Card>

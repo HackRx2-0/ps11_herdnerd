@@ -13,10 +13,11 @@
 
 p span {
 	display: block;
+	color: black;
 }
 
 .text {
-	margin-top: -80px;
+	margin-top: -100px;
 	margin-left: 25px;
 }
 
@@ -27,7 +28,7 @@ p span {
 	align-items: center;
 	padding: 5px;
 	margin-left: 65px;
-	margin-top: -10px;
+	margin-top: 30px;
 	background-color: #674daf;
 	border-color: #674daf;
 }
@@ -35,3 +36,7 @@ p span {
 #price {
 	margin-left: -10px;
 }
+
+/* * {
+	color: black;
+} */
